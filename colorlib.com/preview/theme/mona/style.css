@@ -43,6 +43,7 @@
 --------------------------------------------- */
 /* Import Fonts & All CSS */
 @import url(css/default-assets/hkgrotesk-fonts.css);
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
@@ -51,6 +52,15 @@
 @import url(css/font-awesome.min.css);
 @import url(css/default-assets/slick.css);
 @import url(css/style.css);
+
+
+/*cards*/
+
+
+
+
+
+
 /* :: 1.0 Reboot CSS */
 * {
   margin: 0;
@@ -765,11 +775,13 @@ ul {
 .welcome-text {
   position: relative;
   z-index: 1;
+  font-family: 'Simonetta', !important ;
   margin-top: 100px; }
   .welcome-text h2 {
     font-size: 100px;
     color: #232323;
     display: block;
+    font-family: 'Simonetta', !important ;
     text-transform: capitalize;
     margin-left: -9px;
     margin-bottom: 30px;
